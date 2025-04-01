@@ -13,6 +13,10 @@ body{
   height: 100%;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .wrapper{
   min-height: 100%;
   display: flex;
@@ -822,9 +826,6 @@ body{
   .footer__contacts-text{
     text-align: center;
   }
-  .footer__nav{
-    flex-wrap: nowrap;
-  }
   .footer__social{
     margin-left: 30px;
   }
@@ -842,6 +843,10 @@ body{
   }
   .footer__logo img{
     width: 57px;
+  }
+  .footer__copywright{
+    margin-right: auto;
+    padding-top: 2px;
   }
 }
 @media (max-width: 360px) {
@@ -934,9 +939,5 @@ body{
   }
   .footer__nav{
     justify-content: center;
-  }
-  .footer__copywright{
-    margin-right: auto;
-    padding-top: 2px;
   }
 }
