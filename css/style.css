@@ -306,17 +306,19 @@ body{
 }
 
 .mailing-list__form{
-  display: flex;
-  flex-wrap: wrap;
   flex-basis: 580px;
+}
+.mailing-list__submit{
+  display: flex;
+  margin-bottom: 10px;
 }
 
 .mailing-list__email{
+  width: 100%;
   border: none;
   border-bottom: 1px solid #b8b58b;
   background-color: transparent;
   padding: 3px 15px;
-  width: 438px;
   margin-right: 25px;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
@@ -758,6 +760,9 @@ body{
   .main-blog__item:nth-child(even){
     margin-left: 0;
   }
+  .footer__inner{
+    gap: 0 20px;
+  }
 }
 @media (max-width: 480px) {
   .menu__list{
@@ -792,7 +797,6 @@ body{
     font-size: 13px;
   }
   .mailing-list__email{
-    width: 324px;
     margin-right: 20px;
   }
   .mailing-list__btn{
@@ -911,9 +915,7 @@ body{
   .main-blog__item-title{
     min-height: auto;
   }
-  .mailing-list__email{
-    width: 205px;
-  }.prioritise{
+  .prioritise{
     padding: 50px 0;
   }
   .prioritise__title{
